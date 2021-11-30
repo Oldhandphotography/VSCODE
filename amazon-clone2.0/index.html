@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon 2.0</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/jdenticon@3.1.1/dist/jdenticon.min.js" async
         integrity="sha384-l0/0sn63N3mskDgRYJZA6Mogihu0VY3CusdLMiwpJ9LFPklOARUcOiWEIGGmFELx"
@@ -117,7 +118,21 @@
                      </div>
                  </div>   
             </div>
-            <div class="main-section">
+            <div class="main-section flex-1 pl-60 pr-4">
+                <div class="main-section-banner flex items-end rounded-lg h-36">
+                    <div class="button bg-white m-4 rounded-full flex justify-center cursor-pointer items-center ml-4 w-36 h-18">
+                       <h4 class = " text-bold text-yellow-500 "> Browse Products</h4> 
+                    </div>
+                </div>
+                <div class="main-section-catgories">
+                    <h1 class="popular-catagories flex items-center pt-1 font-bold text-gray-700 text-xl">
+                        Popular Catagory 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-yellow-400 ml-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z" clip-rule="evenodd" />
+                          </svg>
+                    </h1>
+                </div>
+                <div class="main-section-deals"></div>
             </div>
         </div>
     </div>
